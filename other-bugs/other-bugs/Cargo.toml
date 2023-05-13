@@ -1,0 +1,18 @@
+[package]
+name = "other-bugs"
+version = "0.1.0"
+description = "Inconsistent rounding, Incorrect calculation, Exponential complexity demo"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-program = "1.15.2"
+borsh = "0.9.3"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "other_bugs"
+
+[features]
+no-entrypoint = []

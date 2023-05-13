@@ -1,0 +1,22 @@
+[package]
+name = "casting-truncation"
+version = "0.1.0"
+description = "Casting Truncation Example"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-program = "1.15.2"
+
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "casting_truncation"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []

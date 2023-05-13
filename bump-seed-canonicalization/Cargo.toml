@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "bump-seed-canonicalization",
+    "poc",
+]

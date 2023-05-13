@@ -1,0 +1,20 @@
+[package]
+name = "reinit-attack"
+version = "0.1.0"
+description = "Reinitialization attacks"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-program = "1.15.2"
+borsh = "0.9.3"
+arrayref = "0.3.6"
+
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "reinit_attack"
+
+[features]
+no-entrypoint = []

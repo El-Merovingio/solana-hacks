@@ -1,0 +1,18 @@
+[package]
+name = "rent-not-handled"
+version = "0.1.0"
+description = "Error Rent not handled"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-program = "1.15.2"
+borsh = "0.9.3"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "rent_not_handled"
+
+[features]
+no-entrypoint = []

@@ -1,0 +1,13 @@
+[package]
+name = "bump-canon"
+version = "0.1.0"
+description = "Account Data Matching"
+edition = "2021"
+
+[dependencies]
+solana-program = "1.15.2"
+borsh = "0.9.3"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "bump_canon"
