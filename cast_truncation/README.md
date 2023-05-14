@@ -15,7 +15,4 @@ These vulnerabilities can have serious consequences for the security and stabili
 # More information
 
 Resources for the description:
-- **Cast/truncation error:** Rust's documentation on integer overflow: https://doc.rust-lang.org/book/ch03-02-data-types.html#integer-overflow and Solana's documentation on data types: https://docs.solana.com/developing/on-chain-programs/developing-rust/data-types
-- **Input validation:** Solana's documentation on account data validation: https://docs.solana.com/developing/on-chain-programs/developing-rust/data-layout#account-data-validation
-- **Access control:** Solana's documentation on account ownership: https://docs.solana.com/developing/on-chain-programs/developing-rust/accounts#account-ownership
-- **Serialization:** Rust's documentation on serialization: https://doc.rust-lang.org/book/ch11-00-accepting-command-line-arguments.html#storing-configuration and Solana's documentation on account serialization: https://docs.solana.com/developing/on-chain-programs/developing-rust/state#account-serialization
+- **Cast/truncation error:** Rust's documentation on integer overflow: https://doc.rust-lang.org/book/ch03-02-data-types.html#integer-overflow and Solana's documentation on data types: https://docs.solana.com/es/developing/programming-model/accounts
