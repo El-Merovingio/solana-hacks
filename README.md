@@ -3,6 +3,7 @@
 This repository does not include vulnerabilities such as:
 - Signer authorization
 - Owner checks
+- Account Confusions
 - Arbitrary CPIs
 - Math Over/Underflows
 
