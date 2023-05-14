@@ -1,4 +1,4 @@
-# Solana Vulnerabilities
+# Solana Vulnerabilities and Hacks
 
 This repository does not include vulnerabilities such as:
 - Signer authorization
