@@ -11,8 +11,8 @@ The code included here implements a Solana program that creates a user account a
 These vulnerabilities can have serious consequences for the security and stability of the Solana blockchain. It is important to properly validate inputs, handle errors, and perform access control checks to prevent malicious actors from exploiting the system.
 
 # More information
-- **Error handling:** Rust's documentation on error handling: https://doc.rust-lang.org/book/ch09-00-error-handling.html and Solana's documentation on handling program errors: https://docs.solana.com/developing/on-chain-programs/developing-rust/error-handling
-- **Input validation:** Rust's documentation on string handling: https://doc.rust-lang.org/book/ch08-02-strings.html and Solana's documentation on instruction data: https://docs.solana.com/developing/on-chain-programs/developing-rust/instruction-data
-- **Access control:** Solana's documentation on program accounts: https://docs.solana.com/developing/on-chain-programs/developing-rust/accounts
-- **Serialization:** Rust's documentation on serialization: https://doc.rust-lang.org/book/ch11-00-accepting-command-line-arguments.html#storing-configuration and Solana's documentation on account serialization: https://docs.solana.com/developing/on-chain-programs/developing-rust/state#account-serialization
-- **Data size:** Solana's documentation on account data size: https://docs.solana.com/developing/on-chain-programs/developing-rust/data-layout#account-data-size
+- **Error handling:** Rust's documentation on error handling: https://doc.rust-lang.org/book/ch09-00-error-handling.html and Solana's documentation on handling program errors: https://docs.solana.com/es/developing/on-chain-programs/debugging#error-handling
+- **Input validation:** Rust's documentation on string handling: https://doc.rust-lang.org/book/ch08-02-strings.html and Solana's documentation on instruction data: https://docs.solana.com/es/developing/on-chain-programs/debugging#error-handling
+- **Access control:** Solana's documentation on program accounts: https://docs.solana.com/es/developing/programming-model/accounts
+- **Serialization:** Solana's documentation on account serialization: https://solanacookbook.com/guides/serialization.html#setting-up-for-borsh-serialization
+- **Data size:** Solana's documentation on account data size: https://docs.solana.com/es/developing/programming-model/accounts#creating
